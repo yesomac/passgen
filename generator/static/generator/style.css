@@ -1,0 +1,158 @@
+body {
+  background-color: #000;
+  padding: 0;
+  margin: 0;
+  color: #b2b2b2;
+}
+
+main {
+  margin: 0 auto;
+  max-width: 1200px;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: -2px -5px 20px 10px #111;
+}
+
+nav {
+  display: flex;
+  width: 100vw;
+  height: 10vh;
+  background-color: #080808;
+  justify-content: center;
+  align-items: center;
+}
+  nav h1 {
+    font-size: 2rem;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+  }
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  nav ul li {
+    padding: 20px;
+  }
+  nav ul li a {
+    text-decoration: none;
+    font-size: 1.7rem;
+    color: #fff;
+  }
+
+form {
+  background-color: #080808;
+  width: 450px;
+  height: 500px;
+  display: flex;
+  padding: 10px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 10px 10px 10px rgb(46, 45, 45);
+  border-radius: 15px;
+}
+  form div {
+    width: 350px;
+    text-align: center;
+    margin: 10px;
+  }
+  form h1 {
+    color: white;
+    font-size: 2rem;
+  }
+  form label {
+    font-size: 1.5rem;
+    margin: 10px;
+  }
+  form button {
+    background-color: black;
+    width: 120px;
+    height: 45px;
+    color: white;
+    border-radius: 10px;
+    font-size: 1rem;
+    border: none;
+    box-shadow: 5px 5px 10px #111;
+  }
+    form button:hover{
+      background-color: #fff;
+      color: black;
+    }
+  form input[type=checked]{
+    border: none;
+    background-color: #000;
+    box-sizing: border-box;
+  }
+  form select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+  }
+
+  form select {
+    display: inline-block;
+    width: 50%;
+    cursor: pointer;
+    padding: 7px 10px;
+    height: 42px;
+    outline: 0;
+    border: 0;
+    border-radius: 0;
+    background: #101010;
+    color: #7b7b7b;
+    font-size: 1em;
+    color: #999;
+    font-family:
+      'Quicksand', sans-serif;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+    position: relative;
+    transition: all 0.25s ease;
+  }
+  input select:hover {
+    background: #B1E8CD;
+  }
+
+.pass {
+  width: 500px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 10px 10px 10px #111;
+  border-radius: 20px;
+}
+.pass h1 {
+  color: white;
+  font-size: 2rem;
+  margin-bottom: 3px;
+}
+.pass p{
+  color: aquamarine;
+  font-size: 3rem;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  border-radius: 50%;
+  /* border: 1px solid white; */
+  box-shadow: 10px 10px 10px #111;
+}
+.about h1 {
+  font-size: 3rem;
+  color: white;
+  margin-bottom: 5px;
+}
+.about p {
+  font-size: 2rem;
+}
